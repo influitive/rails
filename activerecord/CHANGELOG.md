@@ -1,4 +1,11 @@
 ## Rails 4.2.1 (March 19, 2014) ##
+*   Reduce memory usage from loading types on pg.
+
+    Fixes #19578.
+
+    *Sean Griffin*
+
+*   Add `config.active_record.warn_on_records_fetched_greater_than` option
 
 *   Fixed ActiveRecord::Relation#becomes! and changed_attributes issues for type column
 
